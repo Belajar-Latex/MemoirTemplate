@@ -1,0 +1,107 @@
+% REV02 Thu May 24 18:33:02 WIB 2018
+% START Tue May 22 19:45:45 WIB 2018
+
+% (c) 2018 Rahmat M. Samik-Ibrahim 
+% All Rights Reversed --- All Wrongs Ignored.
+% This is a free document. 
+
+\pagenumbering{roman}
+\thispagestyle{empty}
+\beforepartskip
+
+\newlength{\centeroffset}
+\setlength{\centeroffset}{-0.5\oddsidemargin}
+\addtolength{\centeroffset}{0.5\evensidemargin}
+%\addtolength{\textwidth}{-\centeroffset}
+\thispagestyle{empty}
+\vspace*{\stretch{1}}
+\noindent\hspace*{\centeroffset}\makebox[0pt][l]{\begin{minipage}{\textwidth}
+\flushright
+{\Huge\bfseries \maintitle}
+\noindent\rule[-1ex]{\textwidth}{5pt}\\[2.5ex]
+\hfill\emph{\Large \subtitle}
+\end{minipage}}
+
+\vspace{\stretch{1}}
+\noindent\hspace*{\centeroffset}\makebox[0pt][l]{\begin{minipage}{\textwidth}
+\flushright
+{\bfseries by 
+\authora\\[1.5ex]
+and 
+\authorb\\[3ex]} 
+Rev. \revision
+\end{minipage}}
+
+%\addtolength{\textwidth}{\centeroffset}
+\vspace{\stretch{2}}
+
+\pagebreak
+\let\cleardoublepage\clearpage
+
+\sloppy
+\frontmatter
+\begin{small} 
+  \noindent Copyright \copyright 2018 Cicak bin Kadal and Dul Latip.  All wrongs reversed.
+
+  \lipsum[1]
+\end{small}
+
+\chapter{Thank you!}
+\noindent%
+\lipsum[1]
+
+\newpage \noindent%
+The following individuals helped with corrections, suggestions and
+material to improve this book:
+
+{\flushleft\small
+Cicak bin Kadal,
+Dul Latip,
+Gaelle T. Morin,
+Cicak bin Kadal,
+Dul Latip,
+Gaelle T. Morin,
+Cicak bin Kadal,
+Dul Latip,
+Gaelle T. Morin,
+Cicak bin Kadal,
+Dul Latip,
+Gaelle T. Morin,
+Cicak bin Kadal,
+Dul Latip,
+Gaelle T. Morin.
+}
+
+\vspace*{\stretch{1}}
+
+\pagebreak
+
+\chapter{Preface}
+\lipsum[1-2]
+\vspace{\stretch{1}}
+
+\begin{verse} 
+\begin{small} 
+\noindent%
+\authora{ }\url{mailto:cbk@cbk.com} \\
+\noindent%
+and \authorb{ }\url{https://cbk.vlsm.org/} \\
+\noindent%
+1600 Pennsylvania Ave NW, Washington, DC 20500, USA First.\\
+\end{small} 
+\end{verse} 
+\clearpage
+
+\tableofcontents
+\clearpage
+
+\listoffigures
+\clearpage
+
+\listoftables
+\clearpage
+
+\enlargethispage{\baselineskip}
+\mainmatter
+\pagenumbering{arabic}
+
