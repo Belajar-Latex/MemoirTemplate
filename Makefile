@@ -1,9 +1,10 @@
 # (c) 2018 Rahmat M. Samik-Ibrahim
-# REV02	Thu May 24 20:04:50 WIB 2018
+# REV03	Fri May 25 17:25:04 WIB 2018
 # START	Tue May 22 19:25:02 WIB 2018
 
 DEPS=            \
    book.tex      \
+   book.jpg      \
    book00.tex    \
    book11.tex    \
    book12.tex    \
