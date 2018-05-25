@@ -21,7 +21,10 @@ book.pdf:	 $(DEPS)
 	pdflatex book
 	pdflatex book
 
+pdfclean:	clean
+	rm -f *.pdf
+
 clean:
-	rm -f *.aux *.lof *.log *.lot *.pdf *.idx *.toc *.bbl *.blg *.out
+	rm -f *.aux *.lof *.log *.lot *.idx *.toc *.bbl *.blg *.out
 
 
