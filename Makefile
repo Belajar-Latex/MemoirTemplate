@@ -23,7 +23,7 @@ book.pdf:	 $(DEPS)
 	pdflatex book
 	pdflatex book
 
-pdfclean:	clean
+cleanpdf:	clean
 	rm -f *.pdf
 
 clean:
