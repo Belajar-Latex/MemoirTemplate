@@ -6,17 +6,21 @@
 % All Rights Reversed --- All Wrongs Ignored.
 % This is a free document. 
 
+
 \documentclass[a4paper,12pt,twoside,openright]{memoir}
 \newcommand{\authora}{Cicak Bin Kadal}
 \newcommand{\authorb}{Dul Latip}
 \newcommand{\authorc}{Dr. Pepper's Lonely HCB}
 \newcommand{\maintitle}{A Simple \LaTeX\ Book Template}
+\newcommand{\BibTeX}{{\sc Bib}\TeX}
 \newcommand{\subtitle}{with the Memoir Class}
 \usepackage{etoolbox}         % break break?
 \usepackage{graphicx}         % jpg etc pictures.
 \usepackage{hyperref}         % URLs 
 \usepackage{lipsum}           % Random text
-\usepackage[hyperref]{xcolor} % more hyperref color
+\usepackage{natbib}           % Nat Bib
+\usepackage[hyperref]{xcolor} % URLs more hyperref color
+\bibpunct{(}{)}{,}{a}{,}{,}
 \setcounter{tocdepth}{2}      % TOC: 1:section 2:subsection
 \makeindex
 \listfiles

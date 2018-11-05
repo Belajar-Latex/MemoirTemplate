@@ -1,13 +1,3 @@
-% REV04 Mon Nov  5 18:21:50 WIB 2018
-% START Tue May 22 19:45:45 WIB 2018
-
-% (c) 2018 Rahmat M. Samik-Ibrahim 
-% All Rights Reversed --- All Wrongs Ignored.
-% This is a free document. 
-
-\appendix
-\chapter{App App App}
-\lipsum[1-4]
 \begin{itemize}
 	\item this is an article reference~\citep{goossens93}.
 	\item this is a book reference~\citep{buyya.book}.
@@ -15,6 +5,7 @@
 	\item this is an inproceedings reference~\citep{jackson.paper}.
 	\item this is a misc reference~\citep{adin.experiment}.
 	\item this is a techreport reference~\citep{nist.techreport}.
-	\item this is a unpublished reference~\citep{berry2013tex}.
+
 \end{itemize}
+\lipsum[1]
 
