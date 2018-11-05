@@ -1,5 +1,5 @@
 # (c) 2018 Rahmat M. Samik-Ibrahim
-# REV03	Fri May 25 17:25:04 WIB 2018
+# REV04	Mon Nov  5 18:08:00 WIB 2018
 # START	Tue May 22 19:25:02 WIB 2018
 
 DEPS=            \
@@ -18,6 +18,7 @@ DEPS=            \
 
 book.pdf:	 $(DEPS)
 	pdflatex book
+	bibtex   book
 	pdflatex book
 	pdflatex book
 	pdflatex book
@@ -26,6 +27,5 @@ pdfclean:	clean
 	rm -f *.pdf
 
 clean:
-	rm -f *.aux *.lof *.log *.lot *.idx *.toc *.bbl *.blg *.out
-
+	rm -f *.aux *.lof *.log *.lot *.idx *.toc *.bbl *.blg *.out 
 
